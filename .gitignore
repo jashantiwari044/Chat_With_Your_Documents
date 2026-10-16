@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Secrets & Environment variables
+.env
+*.env
+
+# Local Vector Database & Caches
+chroma_db/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# HuggingFace / Transformers caches
+.cache/
+
